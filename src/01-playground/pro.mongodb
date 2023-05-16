@@ -1,0 +1,12 @@
+/*insertar datos en proyecto*/
+use("arkitas");
+db.proyecto.insertMany ([
+    {
+        "NombreProyecto": " ",
+        "FechaRealizacion":" ",
+        "CodigoProyecto":" ",
+        "FechaEntrega":" ",
+        "Estado":" ",
+        "Descripcion ":""
+    }
+])
